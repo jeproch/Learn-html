@@ -1,14 +1,15 @@
-import Heading from "./components/Heading";
-import Introduction from "./components/Introduction";
-import Info from "./components/Info";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import AnotherPage from "./pages/AnotherPage";
 
 const App = () => {
   return (
-    <div>
-      <Heading></Heading>
-      <Introduction></Introduction>
-      <Info></Info>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/another-page" element={<AnotherPage />} />
+      </Routes>
+    </Router>
   );
 };
 
