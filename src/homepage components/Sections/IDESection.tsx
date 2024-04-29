@@ -21,7 +21,7 @@ const IDESection = () => {
           over a plain text editor, but the choice is yours
         </p>
         <Link to="/IntroPage" className="btn btn-primary">
-          Go to Another Page
+          Start the Course! Psst it's free.
         </Link>
       </div>
     </>
