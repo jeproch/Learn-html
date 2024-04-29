@@ -1,11 +1,10 @@
-import IntroComponent from "../homepage components/IntroComponent";
+import IntroHeading from "../intropage components/IntroHeading";
 
 const IntroPage = () => {
   return (
-    <div>
-      <h1>Another Page</h1>
-      <IntroComponent />
-    </div>
+    <>
+      <IntroHeading></IntroHeading>
+    </>
   );
 };
 
