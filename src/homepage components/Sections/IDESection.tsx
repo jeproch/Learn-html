@@ -20,7 +20,7 @@ const IDESection = () => {
           An IDE comes with additional functionality that's why I recommend it
           over a plain text editor, but the choice is yours
         </p>
-        <Link to="/another-page" className="btn btn-primary">
+        <Link to="/IntroPage" className="btn btn-primary">
           Go to Another Page
         </Link>
       </div>
